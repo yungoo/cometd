@@ -11,3 +11,4 @@ overlays/
 *.ipr
 *.prj
 .idea
+.metadata

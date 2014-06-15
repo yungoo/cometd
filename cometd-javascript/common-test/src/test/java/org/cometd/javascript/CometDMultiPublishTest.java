@@ -97,7 +97,8 @@ public class CometDMultiPublishTest extends AbstractCometDLongPollingTest
 
     public static class Handler extends ScriptableObject
     {
-        private int id;
+		private static final long serialVersionUID = 6474064369472283866L;
+		private int id;
         private AtomicReference<List<Throwable>> failures;
         private CountDownLatch latch;
 
