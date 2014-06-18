@@ -186,9 +186,9 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <!--<requireJavaVersion>
+                                <requireJavaVersion>
                                     <version>[1.7,)</version>
-                                </requireJavaVersion>-->
+                                </requireJavaVersion>
                                 <requireMavenVersion>
                                     <version>[3.0,)</version>
                                 </requireMavenVersion>
