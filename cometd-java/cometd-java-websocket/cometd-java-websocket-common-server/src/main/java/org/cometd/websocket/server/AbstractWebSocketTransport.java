@@ -156,7 +156,7 @@ public abstract class AbstractWebSocketTransport<S> extends AbstractServerTransp
 
     protected abstract class AbstractWebSocketScheduler implements AbstractServerTransport.Scheduler
     {
-        protected final Logger _logger = LoggerFactory.getLogger(getClass().getName() + "." + Integer.toHexString(System.identityHashCode(this)));
+        protected final Logger _logger = LoggerFactory.getLogger("AbstractWebSocketScheduler" + "." + Integer.toHexString(System.identityHashCode(this)));
         private final Flusher flusher = new Flusher();
         private final BayeuxContext _context;
         private volatile ServerSessionImpl _session;
