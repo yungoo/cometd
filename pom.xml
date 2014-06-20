@@ -205,6 +205,7 @@
                     <showDeprecation>true</showDeprecation>
                     <showWarnings>true</showWarnings>
                     <compilerArgument>-Xlint:all,-serial,-unchecked</compilerArgument>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
             <plugin>
